@@ -25,7 +25,6 @@ function Todo({ todo, index, removeTodo }) {
           display: "flex",
           textDecoration: done ? "line-through" : "",
           marginLeft: "1em",
-          maxWidth: "100px",
         }}
       >
         {todo.text}
